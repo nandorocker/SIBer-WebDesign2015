@@ -1,4 +1,8 @@
-## Module 3: CSS3 & Responsive Design
+---
+module: 3
+title: "CSS3 & Responsive Design"
+category: immersive
+---
 
 ### Immersive
 

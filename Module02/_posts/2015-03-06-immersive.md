@@ -1,5 +1,8 @@
-# Module 2: Layout
-
+---
+module: 2
+title: "Fonts & Layout"
+category: immersive
+---
 This class will be more activity-driven. We'll go straight into code, add images and set a custom font to a single-column design.
 
 ## Immersive

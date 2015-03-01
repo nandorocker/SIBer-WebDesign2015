@@ -1,4 +1,8 @@
-# Module 1: Intro to Style for the Web
+---
+module: 1
+title: "Intro to Style for the Web"
+category: immersive
+---
 
 ## Immersive
 
