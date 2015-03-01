@@ -7,7 +7,14 @@ layout: default
 ### by nando rossi
 
 {% for post in site.posts reversed %}
-- [{{ post.title }}]({{ post.url | prepend: site.baseurl }})
+	{% capture current_module %}{{ post.module }}{% endcapture %}
+
+	{% if current_module != module %}
+## {% if post.module > 0 %}Module {{ current_module }} - {% endif %}{{ post.title }}
+	{% capture module %}{{ current_module }}{% endcapture %}
+	{% endif %}
+
+- [{{ post.category | capitalize }}]({{ post.url | prepend: site.baseurl }})
 {% endfor %}
 
 # General Resources
