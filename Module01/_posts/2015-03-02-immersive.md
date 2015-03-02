@@ -30,7 +30,7 @@ category: immersive
 
 - 1989 - Tim Berners-lee [invents](http://www.w3.org/History/1989/proposal.html) the **Web + HTML** at *CERN*
 
-![the www]({{ site.url }}assets/Module01/wwwdiagram.jpg)
+![the www]({{ site.url }}/assets/Module01/wwwdiagram.jpg)
 
 - 1993 - First Graphical Web Browser (Mosaic) made public
 - 1995 - "Commercial internet" begins
@@ -44,8 +44,9 @@ category: immersive
 	- Tags define the function of a block of text
 	- Ex: header, paragraph, navigation, etc.
 	- Tags are hierarchical: `html > body > p > etc`
+- Interpreted by browsers
 
-![Early HTML code]({{ site.url }}assets/Module01/early_html.png)
+![Early HTML code]({{ site.url }}/assets/Module01/early_html.png)
 
 Early HTML code [still around](http://sheldonbrown.com/web_sample1.html). It's rudimentary, yet still 100% readable.
 
@@ -69,31 +70,38 @@ Early HTML mixed code & appearance:
 - Cascading = children inherit parent attributes (less repetition)
 - Box model allows great control of positioning
 
-![Box Model]({{ site.url }}assets/Module01/box_model.png)
+![Box Model]({{ site.url }}/assets/Module01/box_model.png)
 
 
-#### What it looks like
+### How it looks
 
-![Basic CSS]({{ site.url }}assets/Module01/syntax_nomenclature-diagram.png)
+![Basic CSS]({{ site.url }}/assets/Module01/syntax_nomenclature-diagram.png)
 
-- Selectors, statements (rules, rule sets and at-rules) and properties (Check out [CSS General class & nomenclature](http://reference.sitepoint.com/css/syntax))
+- Selectors
+- Statements
+	- Rules
+	- Rule sets
+	- At-rules
+- Properties
+- Comments
 
-Cascading: what are overrides?
-- IDs vs. classes
 
-- Scripting
-	- Supports HTML/CSS
-	- Extends page functionality & behavior
-	- Shouldn't be used in place of good, valid HTML/CSS
+*Source: [CSS General class & nomenclature](http://reference.sitepoint.com/css/syntax)*
+
+### How it works
+
+- HTML tags
+- Classes
+	- Flexible: name it anything you like
+	- Modular: can be applied to any HTML element
+	- Many classes can be attached to the same element
+
+- ID
+	- Specific
+	- Unique (can't repeat)
+	- Should only be used for elements that may be manipulated
 
 ### Responsive design
 
-- Ask: who knows what it means?
 - The mobile web and responsive design
-- How small screens change
-
-
-## Debrief
-
-- Q&A's
-- Ask students to email me when lab assignments are done
+- Technology changes how we consume content
