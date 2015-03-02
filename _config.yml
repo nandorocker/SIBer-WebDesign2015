@@ -5,7 +5,7 @@ description: > # this means to ignore newlines until "baseurl:"
   My take on the front-end development content of Startup
   Institute's Web Design Track.
 
-baseurl: "/siber-webdesign2015.nan.do" # the subpath of your site, e.g. /blog/
+baseurl: "/siber-webdesign2015" # the subpath of your site, e.g. /blog/
 url: "http://nandorocker.github.io" # the base hostname & protocol for your site
 # url: http://localhost:4000
 permalink: none
@@ -15,6 +15,9 @@ github_username:  nandorocker
 # Build settings
 markdown: redcarpet
 encoding: utf-8
+
+include:
+  - .nojekyll
 
 exclude:
   - "bower_components"
