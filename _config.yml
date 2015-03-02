@@ -8,6 +8,7 @@ description: > # this means to ignore newlines until "baseurl:"
 baseurl: "/SIBer-WebDesign2015" # the subpath of your site, e.g. /blog/
 url: "http://nandorocker.github.io" # the base hostname & protocol for your site
 # url: http://localhost:4000
+permalink: none
 twitter_username: nandorocker
 github_username:  nandorocker
 
