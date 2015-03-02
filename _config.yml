@@ -19,3 +19,6 @@ encoding: utf-8
 exclude:
   - "bower_components"
   - "bower.json"
+  - "node_modules"
+  - "package.json"
+  - "Gruntfile.coffee"
