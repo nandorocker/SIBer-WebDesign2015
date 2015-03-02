@@ -1,1 +1,5 @@
-# Module 6: Javascript Foundations
+---
+module: 6
+title: "Javascript Foundations"
+category: debrief
+---

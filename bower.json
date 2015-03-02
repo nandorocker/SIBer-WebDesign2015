@@ -1,0 +1,16 @@
+{
+  "name": "SIBer Web Design 2015",
+  "version": "1.0.0",
+  "homepage": "https://github.com/nandorocker/SIBer-WebDesign2015",
+  "authors": [
+    "Nando Rossi <hello@nandorocker.com>"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}

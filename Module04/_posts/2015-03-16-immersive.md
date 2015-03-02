@@ -1,4 +1,8 @@
-# Module 4: Tools
+---
+module: 4
+title: "Tools"
+category: immersive
+---
 
 ## Immersive
 

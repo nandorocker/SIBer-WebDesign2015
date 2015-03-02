@@ -2,18 +2,18 @@
 layout: default
 ---
 
-# Web Design Track
-##### revised by nando rossi
+### by [nando rossi](mailto:talk@nan.do)
 
-## Index
+{% for post in site.posts reversed %}
+	{% capture current_module %}{{ post.module }}{% endcapture %}
 
-- [Kickoff](Kickoff.md)
-- [Module 1](module-1.md)
-- [Module 2](module-2.md)
-- [Module 3](module-3.md)
-- [Module 4](module-4.md)
-- [Module 5](module-5.md)
-- [Module 6](module-6.md)
+	{% if current_module != module %}
+## {% if post.module > 0 %}Module {{ current_module }} - {% endif %}{{ post.title }}
+	{% capture module %}{{ current_module }}{% endcapture %}
+	{% endif %}
+
+- [{{ post.category | capitalize }}]({{ post.url | prepend: site.baseurl }})
+{% endfor %}
 
 # General Resources
 - GOOGLE IS YOUR FRIEND
