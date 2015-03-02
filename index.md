@@ -2,9 +2,7 @@
 layout: default
 ---
 
-# {{ site.title }}
-
-### by nando rossi
+### by [nando rossi](mailto:talk@nan.do)
 
 {% for post in site.posts reversed %}
 	{% capture current_module %}{{ post.module }}{% endcapture %}

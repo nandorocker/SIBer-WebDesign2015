@@ -2,13 +2,15 @@
 title: Startup Institute Berlin - Web Design Track 2015
 email: talk@nan.do
 description: > # this means to ignore newlines until "baseurl:"
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
+  My take on the front-end development content of Startup
+  Institute's Web Design Track.
+
 baseurl: "" # the subpath of your site, e.g. /blog/
-url: "http://nandorocker.github.io/SIBerWebDesign2015" # the base hostname & protocol for your site
+#url: "http://nandorocker.github.io/SIBerWebDesign2015/" # the base hostname & protocol for your site
+url: http://localhost:4000/
 twitter_username: nandorocker
-github_username:  jekyll
+github_username:  nandorocker
 
 # Build settings
-markdown: kramdown
+markdown: redcarpet
+encoding: utf-8
