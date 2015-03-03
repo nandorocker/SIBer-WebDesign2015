@@ -1,0 +1,421 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Startup Institute Berlin - Web Design Track 2015</title>
+    <description>My take on the front-end development content of Startup Institute&#39;s Web Design Track.
+</description>
+    <link>http://nandorocker.github.io/siber-webdesign-2015/</link>
+    <atom:link href="http://nandorocker.github.io/siber-webdesign-2015/feed.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Tue, 03 Mar 2015 16:07:22 +0100</pubDate>
+    <lastBuildDate>Tue, 03 Mar 2015 16:07:22 +0100</lastBuildDate>
+    <generator>Jekyll v2.5.3</generator>
+    
+      <item>
+        <title>Javascript Foundations</title>
+        <description></description>
+        <pubDate>Mon, 30 Mar 2015 00:00:00 +0200</pubDate>
+        <link>http://nandorocker.github.io/siber-webdesign-2015/module06/debrief/immersive.html</link>
+        <guid isPermaLink="true">http://nandorocker.github.io/siber-webdesign-2015/module06/debrief/immersive.html</guid>
+        
+        
+        <category>module06</category>
+        
+        <category>debrief</category>
+        
+      </item>
+    
+      <item>
+        <title>Javascript Foundations</title>
+        <description></description>
+        <pubDate>Mon, 30 Mar 2015 00:00:00 +0200</pubDate>
+        <link>http://nandorocker.github.io/siber-webdesign-2015/module06/immersive/debrief.html</link>
+        <guid isPermaLink="true">http://nandorocker.github.io/siber-webdesign-2015/module06/immersive/debrief.html</guid>
+        
+        
+        <category>module06</category>
+        
+        <category>immersive</category>
+        
+      </item>
+    
+      <item>
+        <title>Intro to jQuery &amp; JS Libraries</title>
+        <description></description>
+        <pubDate>Wed, 25 Mar 2015 00:00:00 +0100</pubDate>
+        <link>http://nandorocker.github.io/siber-webdesign-2015/module05/debrief/debrief.html</link>
+        <guid isPermaLink="true">http://nandorocker.github.io/siber-webdesign-2015/module05/debrief/debrief.html</guid>
+        
+        
+        <category>module05</category>
+        
+        <category>debrief</category>
+        
+      </item>
+    
+      <item>
+        <title>Intro to jQuery &amp; JS Libraries</title>
+        <description></description>
+        <pubDate>Fri, 20 Mar 2015 00:00:00 +0100</pubDate>
+        <link>http://nandorocker.github.io/siber-webdesign-2015/module05/immersive/immersive.html</link>
+        <guid isPermaLink="true">http://nandorocker.github.io/siber-webdesign-2015/module05/immersive/immersive.html</guid>
+        
+        
+        <category>module05</category>
+        
+        <category>immersive</category>
+        
+      </item>
+    
+      <item>
+        <title>Tools</title>
+        <description>&lt;h2&gt;Debrief&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Q&amp;amp;A&amp;#39;s&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3&gt;Preprocessors&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;LESS, SASS, Jade, Coffeescript and others&lt;/li&gt;
+&lt;li&gt;What are they for?&lt;/li&gt;
+&lt;li&gt;How do they work?&lt;/li&gt;
+&lt;li&gt;Live demonstration
+
+&lt;ul&gt;
+&lt;li&gt;HTML (Jade)
+
+&lt;ul&gt;
+&lt;li&gt;Cleaner code&lt;/li&gt;
+&lt;li&gt;Easier to read&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;CSS
+
+&lt;ul&gt;
+&lt;li&gt;Variables&lt;/li&gt;
+&lt;li&gt;Nested rules&lt;/li&gt;
+&lt;li&gt;Maths&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+        <pubDate>Fri, 20 Mar 2015 00:00:00 +0100</pubDate>
+        <link>http://nandorocker.github.io/siber-webdesign-2015/module04/debrief/debrief.html</link>
+        <guid isPermaLink="true">http://nandorocker.github.io/siber-webdesign-2015/module04/debrief/debrief.html</guid>
+        
+        
+        <category>module04</category>
+        
+        <category>debrief</category>
+        
+      </item>
+    
+      <item>
+        <title>Tools</title>
+        <description>&lt;h2&gt;Immersive&lt;/h2&gt;
+
+&lt;h3&gt;Frameworks&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;http://getbootstrap.com&quot;&gt;Bootstrap&lt;/a&gt;, &lt;a href=&quot;http://foundation.zurb.com&quot;&gt;Foundation&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;What are they for?&lt;/li&gt;
+&lt;li&gt;Live demonstration
+
+&lt;ul&gt;
+&lt;li&gt;Generate a simple site with Bootstrap&lt;/li&gt;
+&lt;li&gt;Use components, reference&lt;/li&gt;
+&lt;li&gt;Responsive design made easier &lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3&gt;Apps &amp;amp; Web apps&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Pros and cons&lt;/li&gt;
+&lt;li&gt;Which ones to use, which to avoid
+
+&lt;ul&gt;
+&lt;li&gt;Macaw&lt;/li&gt;
+&lt;li&gt;Squarespace&lt;/li&gt;
+&lt;li&gt;Strikingly&lt;/li&gt;
+&lt;li&gt;Wordpress templates&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2&gt;Debrief&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Q&amp;amp;A&amp;#39;s&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3&gt;Preprocessors&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;LESS, SASS, Jade, Coffeescript and others&lt;/li&gt;
+&lt;li&gt;What are they for?&lt;/li&gt;
+&lt;li&gt;How do they work?&lt;/li&gt;
+&lt;li&gt;Live demonstration
+
+&lt;ul&gt;
+&lt;li&gt;HTML (Jade)
+
+&lt;ul&gt;
+&lt;li&gt;Cleaner code&lt;/li&gt;
+&lt;li&gt;Easier to read&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;CSS
+
+&lt;ul&gt;
+&lt;li&gt;Variables&lt;/li&gt;
+&lt;li&gt;Nested rules&lt;/li&gt;
+&lt;li&gt;Maths&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+        <pubDate>Mon, 16 Mar 2015 00:00:00 +0100</pubDate>
+        <link>http://nandorocker.github.io/siber-webdesign-2015/module04/immersive/immersive.html</link>
+        <guid isPermaLink="true">http://nandorocker.github.io/siber-webdesign-2015/module04/immersive/immersive.html</guid>
+        
+        
+        <category>module04</category>
+        
+        <category>immersive</category>
+        
+      </item>
+    
+      <item>
+        <title>CSS3 &amp; Responsive Design</title>
+        <description>&lt;h3&gt;Debrief&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Ask students to present their good &amp;amp; bad responsive design examples&lt;/li&gt;
+&lt;li&gt;Q&amp;amp;A&amp;#39;s&lt;/li&gt;
+&lt;li&gt;Portfolio feedback&lt;/li&gt;
+&lt;li&gt;Media queries are hard? Begin introducing preprocessors, frameworks, etc&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+        <pubDate>Fri, 13 Mar 2015 00:00:00 +0100</pubDate>
+        <link>http://nandorocker.github.io/siber-webdesign-2015/module03/debrief/debrief.html</link>
+        <guid isPermaLink="true">http://nandorocker.github.io/siber-webdesign-2015/module03/debrief/debrief.html</guid>
+        
+        
+        <category>module03</category>
+        
+        <category>debrief</category>
+        
+      </item>
+    
+      <item>
+        <title>CSS3 &amp; Responsive Design</title>
+        <description>&lt;h3&gt;Immersive&lt;/h3&gt;
+
+&lt;p&gt;This will be a mostly theoretical class, with some code implementation. Main goals are:
+1) Understand Responsive Design
+2) Understand CSS3&lt;/p&gt;
+
+&lt;h4&gt;Responsive Design&lt;/h4&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Sites used to be 100% fixed&lt;/li&gt;
+&lt;li&gt;Went from similar screens to dramatically different screens&lt;/li&gt;
+&lt;li&gt;How to address different clients:
+
+&lt;ul&gt;
+&lt;li&gt;Fluid design&lt;/li&gt;
+&lt;li&gt;Graceful degradation&lt;/li&gt;
+&lt;li&gt;Responsive design&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;Show examples of each of these methods in action&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://www.fastcodesign.com/3038367/9-gifs-that-explain-responsive-design-brilliantly&quot;&gt;Illustrative&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h4&gt;&amp;quot;Mobile first&amp;quot; philosophy&lt;/h4&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Building from simplest to most complex&lt;/li&gt;
+&lt;li&gt;Content should be readable on any device&lt;/li&gt;
+&lt;li&gt;Full control over how content will look in screens of different sizes&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h4&gt;CSS3 and Media queries&lt;/h4&gt;
+
+&lt;ul&gt;
+&lt;li&gt;CSS3 brings lots of &lt;a href=&quot;http://www.htmlgoodies.com/html5/css/whats-new-in-css3.html&quot;&gt;great new stuff&lt;/a&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Media Queries&lt;/li&gt;
+&lt;li&gt;Transforms&lt;/li&gt;
+&lt;li&gt;Grids&lt;/li&gt;
+&lt;li&gt;lots of other awesome things&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;Here we will focus on Media Queries&lt;/li&gt;
+&lt;li&gt;How do they look and work?&lt;/li&gt;
+&lt;li&gt;Show very simple implementation&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h4&gt;Assignment&lt;/h4&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Collect 3 examples of &lt;strong&gt;great&lt;/strong&gt; responsive design&lt;/li&gt;
+&lt;li&gt;Collect 3 examples of &lt;strong&gt;bad&lt;/strong&gt; responsive design&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3&gt;Debrief&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Ask students to present their good &amp;amp; bad responsive design examples&lt;/li&gt;
+&lt;li&gt;Q&amp;amp;A&amp;#39;s&lt;/li&gt;
+&lt;li&gt;Portfolio feedback&lt;/li&gt;
+&lt;li&gt;Media queries are hard? Begin introducing preprocessors, frameworks, etc&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+        <pubDate>Wed, 11 Mar 2015 00:00:00 +0100</pubDate>
+        <link>http://nandorocker.github.io/siber-webdesign-2015/module03/immersive/immersive.html</link>
+        <guid isPermaLink="true">http://nandorocker.github.io/siber-webdesign-2015/module03/immersive/immersive.html</guid>
+        
+        
+        <category>module03</category>
+        
+        <category>immersive</category>
+        
+      </item>
+    
+      <item>
+        <title>Fonts &amp; Layout</title>
+        <description>&lt;p&gt;This class will be more activity-driven. We&amp;#39;ll go straight into code, add images and set a custom font to a single-column design.&lt;/p&gt;
+
+&lt;h2&gt;Immersive&lt;/h2&gt;
+
+&lt;h3&gt;Set up a simple web server&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Mac: &lt;code&gt;python -m SimpleHTTPServer 8000&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;Windows: &lt;a href=&quot;https://code.google.com/p/mongoose/&quot;&gt;Mongoose&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3&gt;File structure overview&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Create the &lt;strong&gt;root&lt;/strong&gt; folder&lt;/li&gt;
+&lt;li&gt;We reference files using &lt;em&gt;paths&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;Absolute paths vs. relative paths&lt;/li&gt;
+&lt;li&gt;Absolute paths have &lt;code&gt;http://&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;/&lt;/code&gt; is the path to the root&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;../&lt;/code&gt; means one step above (back one folder)&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3&gt;Layouts&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Explain using &lt;a href=&quot;http://learnlayout.com&quot;&gt;learnlayout&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Start with no layout&lt;/li&gt;
+&lt;li&gt;Add simple rules&lt;/li&gt;
+&lt;li&gt;The box model&lt;/li&gt;
+&lt;li&gt;Position&lt;/li&gt;
+&lt;li&gt;Adding images&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3&gt;Custom fonts&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;How to choose webfonts (I won&amp;#39;t explain this)&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;http://www.typography.com/techniques/&quot;&gt;Hoefler &amp;amp; Co&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://font-combinator.com&quot;&gt;The Webfont Combinator&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://typecast.com&quot;&gt;Typecast&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Choose two webfonts&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Add to project&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2&gt;Debrief&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Q&amp;amp;A&amp;#39;s&lt;/li&gt;
+&lt;li&gt;Since I already have everyone&amp;#39;s repos, I will bring up portfolio work and give feedback&lt;/li&gt;
+&lt;li&gt;Feedback on style tiles&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+        <pubDate>Mon, 09 Mar 2015 00:00:00 +0100</pubDate>
+        <link>http://nandorocker.github.io/siber-webdesign-2015/module02/debrief/debrief.html</link>
+        <guid isPermaLink="true">http://nandorocker.github.io/siber-webdesign-2015/module02/debrief/debrief.html</guid>
+        
+        
+        <category>module02</category>
+        
+        <category>debrief</category>
+        
+      </item>
+    
+      <item>
+        <title>Fonts &amp; Layout</title>
+        <description>&lt;p&gt;This class will be more activity-driven. We&amp;#39;ll go straight into code, add images and set a custom font to a single-column design.&lt;/p&gt;
+
+&lt;h2&gt;Immersive&lt;/h2&gt;
+
+&lt;h3&gt;Set up a simple web server&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Mac: &lt;code&gt;python -m SimpleHTTPServer 8000&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;Windows: &lt;a href=&quot;https://code.google.com/p/mongoose/&quot;&gt;Mongoose&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3&gt;File structure overview&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Create the &lt;strong&gt;root&lt;/strong&gt; folder&lt;/li&gt;
+&lt;li&gt;We reference files using &lt;em&gt;paths&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;Absolute paths vs. relative paths&lt;/li&gt;
+&lt;li&gt;Absolute paths have &lt;code&gt;http://&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;/&lt;/code&gt; is the path to the root&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;../&lt;/code&gt; means one step above (back one folder)&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3&gt;Layouts&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Explain using &lt;a href=&quot;http://learnlayout.com&quot;&gt;learnlayout&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Start with no layout&lt;/li&gt;
+&lt;li&gt;Add simple rules&lt;/li&gt;
+&lt;li&gt;The box model&lt;/li&gt;
+&lt;li&gt;Position&lt;/li&gt;
+&lt;li&gt;Adding images&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3&gt;Custom fonts&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;How to choose webfonts (I won&amp;#39;t explain this)&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;http://www.typography.com/techniques/&quot;&gt;Hoefler &amp;amp; Co&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://font-combinator.com&quot;&gt;The Webfont Combinator&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://typecast.com&quot;&gt;Typecast&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Choose two webfonts&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Add to project&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2&gt;Debrief&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Q&amp;amp;A&amp;#39;s&lt;/li&gt;
+&lt;li&gt;Since I already have everyone&amp;#39;s repos, I will bring up portfolio work and give feedback&lt;/li&gt;
+&lt;li&gt;Feedback on style tiles&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+        <pubDate>Fri, 06 Mar 2015 00:00:00 +0100</pubDate>
+        <link>http://nandorocker.github.io/siber-webdesign-2015/module02/immersive/immersive.html</link>
+        <guid isPermaLink="true">http://nandorocker.github.io/siber-webdesign-2015/module02/immersive/immersive.html</guid>
+        
+        
+        <category>module02</category>
+        
+        <category>immersive</category>
+        
+      </item>
+    
+  </channel>
+</rss>
