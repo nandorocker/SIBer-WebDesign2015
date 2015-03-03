@@ -30,7 +30,7 @@ category: immersive
 
 - 1989 - Tim Berners-lee [invents](http://www.w3.org/History/1989/proposal.html) the **Web + HTML** at *CERN*
 
-![the www]({{ "/assets/Module01/" | prepend: site.baseurl }}wwwdiagram.jpg)
+![the www]({{ "/assets/Module1/" | prepend: site.baseurl }}wwwdiagram.jpg)
 
 - 1993 - First Graphical Web Browser (Mosaic) made public
 - 1995 - "Commercial internet" begins
@@ -46,7 +46,7 @@ category: immersive
 	- Tags are hierarchical: `html > body > p > etc`
 - Interpreted by browsers
 
-![Early HTML code]({{ "/assets/Module01/" | prepend: site.baseurl }}early_html.png)
+![Early HTML code]({{ "/assets/Module1/" | prepend: site.baseurl }}early_html.png)
 
 Early HTML code [still around](http://sheldonbrown.com/web_sample1.html). It's rudimentary, yet still 100% readable.
 
