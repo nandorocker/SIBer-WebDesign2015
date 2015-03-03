@@ -12,7 +12,7 @@ layout: default
 	{% capture module %}{{ current_module }}{% endcapture %}
 	{% endif %}
 
-- [{{ post.category | capitalize }}]({{ post.url | prepend: site.baseurl }})
+- [{{ post.category | capitalize }}]({{ post.url | prepend: site.baseurl }}) ([keynote](assets/Module{{ current_module }}/{{ current_module }}-{{ post.category }}.key))
 {% endfor %}
 
 # General Resources
