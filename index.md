@@ -15,8 +15,11 @@ layout: default
 
 # General Resources
 - GOOGLE IS YOUR FRIEND
-- Codecademy
-- Lynda.com
+- [Codecademy](http://codecademy.com)
+- [Lynda.com](http://lynda.com)
+- [CSS Tricks](https://css-tricks.com)
+- [HTML5 Rocks](http://www.html5rocks.com/en/)
+- [Mozilla Developer Network](https://developer.mozilla.org/en-US/)
 - [w3schools](http://www.w3schools.com/cssref/default.asp)
 - Nice code thread on [Quora](http://www.quora.com/I-want-to-learn-how-to-code-Im-about-to-turn-28-Is-it-too-late-to-learn-If-not-where-do-I-even-begin/answer/Ahmed-Balfaqih)
 - [Bootstrap templates](http://startbootstrap.com)
