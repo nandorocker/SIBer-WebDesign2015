@@ -54,11 +54,13 @@ Early HTML code [still around](http://sheldonbrown.com/web_sample1.html). It's r
 ### Content vs. Style
 
 Early HTML mixed code & appearance:
+{% highlight css %}
 
-	<font color="red" size="5">BIG FONT</font>
-	<table background="white" padding="2">...</table>
-	<blink>Everybody's favorite tag</blink>
+<font color="red" size="5">BIG FONT</font>
+<table background="white" padding="2">...</table>
+<blink>Everybody's favorite tag</blink>
 	
+{% endhighlight %}
 - Creative design = lots of hacks
 - Tables and spacer.gif
 - Code is very busy, hard to read and edit
@@ -70,12 +72,12 @@ Early HTML mixed code & appearance:
 - Cascading = children inherit parent attributes (less repetition)
 - Box model allows great control of positioning
 
-![Box Model]({{ "/assets/Module01/" | prepend: site.baseurl }}box_model.png)
+![Box Model]({{ "/assets/Module1/" | prepend: site.baseurl }}box_model.png)
 
 
 ### How it looks
 
-![Basic CSS]({{ "/assets/Module01/" | prepend: site.baseurl }}syntax_nomenclature-diagram.png)
+![Basic CSS]({{ "/assets/Module1/" | prepend: site.baseurl }}syntax_nomenclature-diagram.png)
 
 - Selectors
 - Statements

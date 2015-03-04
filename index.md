@@ -2,8 +2,6 @@
 layout: default
 ---
 
-### by [nando rossi](mailto:talk@nan.do)
-
 {% for post in site.posts reversed %}
 	{% capture current_module %}{{ post.module }}{% endcapture %}
 
@@ -22,3 +20,5 @@ layout: default
 - [w3schools](http://www.w3schools.com/cssref/default.asp)
 - Nice code thread on [Quora](http://www.quora.com/I-want-to-learn-how-to-code-Im-about-to-turn-28-Is-it-too-late-to-learn-If-not-where-do-I-even-begin/answer/Ahmed-Balfaqih)
 - [Bootstrap templates](http://startbootstrap.com)
+
+© 2015 [nando rossi](mailto:talk@nan.do)
