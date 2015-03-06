@@ -6,8 +6,8 @@
 </description>
     <link>http://nandorocker.github.io/</link>
     <atom:link href="http://nandorocker.github.io/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Wed, 04 Mar 2015 02:53:50 +0100</pubDate>
-    <lastBuildDate>Wed, 04 Mar 2015 02:53:50 +0100</lastBuildDate>
+    <pubDate>Fri, 06 Mar 2015 03:03:01 +0100</pubDate>
+    <lastBuildDate>Fri, 06 Mar 2015 03:03:01 +0100</lastBuildDate>
     <generator>Jekyll v2.5.3</generator>
     
       <item>
@@ -283,60 +283,17 @@
     
       <item>
         <title>Fonts &amp; Layout</title>
-        <description>&lt;p&gt;This class will be more activity-driven. We&amp;#39;ll go straight into code, add images and set a custom font to a single-column design.&lt;/p&gt;
-
-&lt;h2&gt;Immersive&lt;/h2&gt;
-
-&lt;h3&gt;Set up a simple web server&lt;/h3&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Mac: &lt;code&gt;python -m SimpleHTTPServer 8000&lt;/code&gt;&lt;/li&gt;
-&lt;li&gt;Windows: &lt;a href=&quot;https://code.google.com/p/mongoose/&quot;&gt;Mongoose&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h3&gt;File structure overview&lt;/h3&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Create the &lt;strong&gt;root&lt;/strong&gt; folder&lt;/li&gt;
-&lt;li&gt;We reference files using &lt;em&gt;paths&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;Absolute paths vs. relative paths&lt;/li&gt;
-&lt;li&gt;Absolute paths have &lt;code&gt;http://&lt;/code&gt;&lt;/li&gt;
-&lt;li&gt;&lt;code&gt;/&lt;/code&gt; is the path to the root&lt;/li&gt;
-&lt;li&gt;&lt;code&gt;../&lt;/code&gt; means one step above (back one folder)&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h3&gt;Layouts&lt;/h3&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Explain using &lt;a href=&quot;http://learnlayout.com&quot;&gt;learnlayout&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;Start with no layout&lt;/li&gt;
-&lt;li&gt;Add simple rules&lt;/li&gt;
-&lt;li&gt;The box model&lt;/li&gt;
-&lt;li&gt;Position&lt;/li&gt;
-&lt;li&gt;Adding images&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h3&gt;Custom fonts&lt;/h3&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;p&gt;How to choose webfonts (I won&amp;#39;t explain this)&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&quot;http://www.typography.com/techniques/&quot;&gt;Hoefler &amp;amp; Co&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;http://font-combinator.com&quot;&gt;The Webfont Combinator&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;http://typecast.com&quot;&gt;Typecast&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;&lt;/li&gt;
-&lt;li&gt;&lt;p&gt;Choose two webfonts&lt;/p&gt;&lt;/li&gt;
-&lt;li&gt;&lt;p&gt;Add to project&lt;/p&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2&gt;Debrief&lt;/h2&gt;
+        <description>&lt;h1&gt;First hour&lt;/h1&gt;
 
 &lt;ul&gt;
 &lt;li&gt;Q&amp;amp;A&amp;#39;s&lt;/li&gt;
-&lt;li&gt;Since I already have everyone&amp;#39;s repos, I will bring up portfolio work and give feedback&lt;/li&gt;
+&lt;li&gt;Portfolio feedback&lt;/li&gt;
 &lt;li&gt;Feedback on style tiles&lt;/li&gt;
 &lt;/ul&gt;
+
+&lt;h1&gt;Second hour&lt;/h1&gt;
+
+&lt;h2&gt;Getting started with Bootstrap&lt;/h2&gt;
 </description>
         <pubDate>Mon, 09 Mar 2015 00:00:00 +0100</pubDate>
         <link>http://nandorocker.github.io/module2/debrief/debrief.html</link>
@@ -351,36 +308,162 @@
     
       <item>
         <title>Fonts &amp; Layout</title>
-        <description>&lt;p&gt;This class will be more activity-driven. We&amp;#39;ll go straight into code, add images and set a custom font to a single-column design.&lt;/p&gt;
-
-&lt;h1&gt;First Hour&lt;/h1&gt;
+        <description>&lt;h1&gt;First Hour&lt;/h1&gt;
 
 &lt;h2&gt;Layouts&lt;/h2&gt;
 
 &lt;ul&gt;
-&lt;li&gt;Explain using &lt;a href=&quot;http://learnlayout.com&quot;&gt;learnlayout&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;Start with no layout&lt;/li&gt;
-&lt;li&gt;Add simple rules&lt;/li&gt;
-&lt;li&gt;The box model&lt;/li&gt;
-&lt;li&gt;Position&lt;/li&gt;
-&lt;li&gt;Adding images&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://learnlayout.com&quot;&gt;learnlayout&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3&gt;The box model&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Content&lt;/strong&gt; - The content of the box, where text and images appear&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Padding&lt;/strong&gt; - Clears an area around the content. The padding is transparent&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Border&lt;/strong&gt; - A border that goes around the padding and content&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Margin&lt;/strong&gt; - Clears an area outside the border. The margin is transparent&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3&gt;Some math is involved&lt;/h3&gt;
+
+&lt;p&gt;Check out our &lt;a href=&quot;http://jsfiddle.net/ntsnre62/&quot;&gt;box&lt;/a&gt;.&lt;/p&gt;
+
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-css&quot; data-lang=&quot;css&quot;&gt;&lt;span class=&quot;nc&quot;&gt;.box&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+    &lt;span class=&quot;k&quot;&gt;background-color&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;m&quot;&gt;#cc0000&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+    &lt;span class=&quot;k&quot;&gt;width&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;m&quot;&gt;100px&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+    &lt;span class=&quot;k&quot;&gt;height&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;m&quot;&gt;100px&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+    &lt;span class=&quot;k&quot;&gt;margin&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;m&quot;&gt;15px&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+    &lt;span class=&quot;k&quot;&gt;padding&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;m&quot;&gt;15px&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+    &lt;span class=&quot;k&quot;&gt;border&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;m&quot;&gt;5px&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;dotted&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;black&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+&lt;p&gt;The &lt;strong&gt;width&lt;/strong&gt; of the box clearly states 100px. However, if you &amp;quot;inspect element&amp;quot; it shows as 140px. Why?&lt;/p&gt;
+
+&lt;p&gt;Answer: &lt;strong&gt;padding&lt;/strong&gt; and &lt;strong&gt;border&lt;/strong&gt; are added on top of the width value.&lt;/p&gt;
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-text&quot; data-lang=&quot;text&quot;&gt;  width + (2 * padding) + (2 * border) = total width
+------------------------------------------------------
+  100px +   (2 * 15px)  +   (2 * 5px)  = 140px
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;h3&gt;Position&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Absolute&lt;/li&gt;
+&lt;li&gt;Relative&lt;/li&gt;
+&lt;li&gt;Fixed&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;h1&gt;Second Hour&lt;/h1&gt;
 
-&lt;h2&gt;Custom fonts&lt;/h2&gt;
+&lt;h2&gt;Typography&lt;/h2&gt;
+
+&lt;h3&gt;Type for Dummies&lt;/h3&gt;
+
+&lt;p&gt;&lt;strong&gt;Fonts&lt;/strong&gt; are a universe in itself. Some designers spend their life doing mostly font design. There are several categories of fonts:&lt;/p&gt;
 
 &lt;ul&gt;
-&lt;li&gt;&lt;p&gt;How to choose webfonts (read this before class)&lt;/p&gt;
+&lt;li&gt;Serif&lt;/li&gt;
+&lt;li&gt;Sans-serif&lt;/li&gt;
+&lt;li&gt;Slab&lt;/li&gt;
+&lt;li&gt;Brush&lt;/li&gt;
+&lt;li&gt;...&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2&gt;Webfonts&lt;/h2&gt;
+
+&lt;h3&gt;Where to get them&lt;/h3&gt;
+
+&lt;h4&gt;Free:&lt;/h4&gt;
+
+&lt;p&gt;Usually less weights (bold, italic, etc) and way less good options. Always check for international characters. Some staples like &lt;strong&gt;Open Sans&lt;/strong&gt; are all over the web.&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;http://www.google.com/fonts&quot;&gt;Google Fonts&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://www.fontsquirrel.com&quot;&gt;Fontsquirrel&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h4&gt;Paid:&lt;/h4&gt;
+
+&lt;p&gt;More unique fonts, made by pros. Lots of weights. Can get very expensive.&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;http://www.typekit.com&quot;&gt;Adobe Typekit&lt;/a&gt; (subscription)&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://www.myfonts.com&quot;&gt;MyFonts&lt;/a&gt; (purchase license)&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3&gt;How to choose fonts&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Pick two&lt;/li&gt;
+&lt;li&gt;Don&amp;#39;t be afraid to combine &lt;strong&gt;serif&lt;/strong&gt; + &lt;strong&gt;sans&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;Keep the &lt;em&gt;mood&lt;/em&gt; consistent&lt;/li&gt;
+&lt;li&gt;Only import the font weights you need&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h4&gt;Read these:&lt;/h4&gt;
 
 &lt;ul&gt;
 &lt;li&gt;&lt;a href=&quot;http://www.typography.com/techniques/&quot;&gt;Hoefler &amp;amp; Co&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&quot;http://font-combinator.com&quot;&gt;The Webfont Combinator&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&quot;http://typecast.com&quot;&gt;Typecast&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;&lt;/li&gt;
-&lt;li&gt;&lt;p&gt;Choose two webfonts&lt;/p&gt;&lt;/li&gt;
-&lt;li&gt;&lt;p&gt;Add to project&lt;/p&gt;&lt;/li&gt;
 &lt;/ul&gt;
+
+&lt;h3&gt;How to apply them to your website&lt;/h3&gt;
+
+&lt;h4&gt;Import the fonts&lt;/h4&gt;
+
+&lt;h5&gt;Option A. Google Fonts&lt;/h5&gt;
+
+&lt;p&gt;If you use Google Fonts, you will be provided with a simple way to choose which weights.&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;Choose one or more fonts&lt;/li&gt;
+&lt;li&gt;Click &amp;quot;Add to collection&amp;quot;&lt;/li&gt;
+&lt;li&gt;Go to tab &amp;quot;Use&amp;quot;&lt;/li&gt;
+&lt;li&gt;Select font weights&lt;/li&gt;
+&lt;li&gt;Copy &lt;strong&gt;standard&lt;/strong&gt; website code (ex. &lt;code&gt;&amp;lt;link href=&amp;#39;http://fonts.googleapis.com/css?family=Open+Sans&amp;#39; rel=&amp;#39;stylesheet&amp;#39; type=&amp;#39;text/css&amp;#39;&amp;gt;&lt;/code&gt;)&lt;/li&gt;
+&lt;li&gt;Paste it on your HTML, &lt;em&gt;before&lt;/em&gt; your main style sheet.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h5&gt;Option B. Host Locally&lt;/h5&gt;
+
+&lt;p&gt;You can also download fonts from Google Fonts, or Fontsquirrel. That makes downloads faster and more guaranteed, but involve a bit more complicated, hands-on approach.&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Choose and download your fonts&lt;/li&gt;
+&lt;li&gt;Go to Fontsquirrel &amp;gt; Webfont Generator&lt;/li&gt;
+&lt;li&gt;Follow the instructions and download the &amp;quot;font kit&amp;quot;&lt;/li&gt;
+&lt;li&gt;Unzip the file. Copy all fonts into a folder on your site (example: &lt;code&gt;assets/fonts&lt;/code&gt;)&lt;/li&gt;
+&lt;li&gt;Look for the style sheet files. You&amp;#39;ll see something like:&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-css&quot; data-lang=&quot;css&quot;&gt;&lt;span class=&quot;k&quot;&gt;@font-face&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+    &lt;span class=&quot;nt&quot;&gt;font-family&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;&amp;#39;open_sansbold&amp;#39;&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;;&lt;/span&gt;
+    &lt;span class=&quot;nt&quot;&gt;src&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;url&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;&amp;#39;OpenSans-Bold-webfont.eot&amp;#39;&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;);&lt;/span&gt;
+    &lt;span class=&quot;nt&quot;&gt;src&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;url&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;&amp;#39;OpenSans-Bold-webfont.eot?#iefix&amp;#39;&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;format&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;&amp;#39;embedded-opentype&amp;#39;&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;),&lt;/span&gt;
+         &lt;span class=&quot;nt&quot;&gt;url&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;&amp;#39;OpenSans-Bold-webfont.woff&amp;#39;&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;format&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;&amp;#39;woff&amp;#39;&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;),&lt;/span&gt;
+         &lt;span class=&quot;nt&quot;&gt;url&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;&amp;#39;OpenSans-Bold-webfont.ttf&amp;#39;&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;format&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;&amp;#39;truetype&amp;#39;&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;),&lt;/span&gt;
+         &lt;span class=&quot;nt&quot;&gt;url&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;&amp;#39;OpenSans-Bold-webfont.svg#open_sansbold&amp;#39;&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;format&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;&amp;#39;svg&amp;#39;&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;);&lt;/span&gt;
+    &lt;span class=&quot;nt&quot;&gt;font-weight&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;normal&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;;&lt;/span&gt;
+    &lt;span class=&quot;nt&quot;&gt;font-style&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;normal&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;;&lt;/span&gt;
+
+&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Add it to the top of your style sheet. You&amp;#39;ll need to add one of these for each font weight. Make sure you pay attention to &lt;strong&gt;path&lt;/strong&gt;.&lt;/li&gt;
+&lt;li&gt;Change the appropriate path to the font file on your structure (&lt;code&gt;/assets/fonts&lt;/code&gt; in our example)&lt;/li&gt;
+&lt;li&gt;Change the &lt;strong&gt;font-family&lt;/strong&gt; and &lt;strong&gt;font-weight&lt;/strong&gt; values to match what each @font-face is referring to (in our example&amp;#39;s case, it should be &amp;quot;Open Sans&amp;quot; and &amp;quot;bold&amp;quot;)&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h4&gt;Using the font&lt;/h4&gt;
+
+&lt;p&gt;After you import the font, you can simply use it in your CSS:&lt;/p&gt;
+
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-css&quot; data-lang=&quot;css&quot;&gt;&lt;span class=&quot;nt&quot;&gt;font-family&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;&amp;#39;Open Sans&amp;#39;&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+&lt;h3&gt;Licensing&lt;/h3&gt;
+
+&lt;p&gt;Any .ttf font can be used as a web font. However, you must pay attention to licensing and make sure you only use fonts on the web which are licensed for such use.&lt;/p&gt;
 </description>
         <pubDate>Fri, 06 Mar 2015 00:00:00 +0100</pubDate>
         <link>http://nandorocker.github.io/module2/immersive/immersive.html</link>

@@ -7,7 +7,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
   <title>Fonts & Layout</title>
-  <meta name="description" content="This class will be more activity-driven. We&#39;ll go straight into code, add images and set a custom font to a single-column design.">
+  <meta name="description" content="First Hour">
 
   <!-- Custom CSS -->
   <link href='http://fonts.googleapis.com/css?family=Roboto:400,500,400italic,500italic,700,700italic,100,100italic' rel='stylesheet' type='text/css'>
@@ -52,36 +52,162 @@
 
     <div class="page-content">
       <div class="wrapper">
-        <p>This class will be more activity-driven. We&#39;ll go straight into code, add images and set a custom font to a single-column design.</p>
-
-<h1>First Hour</h1>
+        <h1>First Hour</h1>
 
 <h2>Layouts</h2>
 
 <ul>
-<li>Explain using <a href="http://learnlayout.com">learnlayout</a></li>
-<li>Start with no layout</li>
-<li>Add simple rules</li>
-<li>The box model</li>
-<li>Position</li>
-<li>Adding images</li>
+<li><a href="http://learnlayout.com">learnlayout</a></li>
+</ul>
+
+<h3>The box model</h3>
+
+<ul>
+<li><strong>Content</strong> - The content of the box, where text and images appear</li>
+<li><strong>Padding</strong> - Clears an area around the content. The padding is transparent</li>
+<li><strong>Border</strong> - A border that goes around the padding and content</li>
+<li><strong>Margin</strong> - Clears an area outside the border. The margin is transparent</li>
+</ul>
+
+<h3>Some math is involved</h3>
+
+<p>Check out our <a href="http://jsfiddle.net/ntsnre62/">box</a>.</p>
+
+<div class="highlight"><pre><code class="language-css" data-lang="css"><span class="nc">.box</span> <span class="p">{</span>
+    <span class="k">background-color</span><span class="o">:</span> <span class="m">#cc0000</span><span class="p">;</span>
+    <span class="k">width</span><span class="o">:</span> <span class="m">100px</span><span class="p">;</span>
+    <span class="k">height</span><span class="o">:</span> <span class="m">100px</span><span class="p">;</span>
+    <span class="k">margin</span><span class="o">:</span> <span class="m">15px</span><span class="p">;</span>
+    <span class="k">padding</span><span class="o">:</span> <span class="m">15px</span><span class="p">;</span>
+    <span class="k">border</span><span class="o">:</span> <span class="m">5px</span> <span class="k">dotted</span> <span class="nb">black</span><span class="p">;</span>
+<span class="p">}</span></code></pre></div>
+
+<p>The <strong>width</strong> of the box clearly states 100px. However, if you &quot;inspect element&quot; it shows as 140px. Why?</p>
+
+<p>Answer: <strong>padding</strong> and <strong>border</strong> are added on top of the width value.</p>
+<div class="highlight"><pre><code class="language-text" data-lang="text">  width + (2 * padding) + (2 * border) = total width
+------------------------------------------------------
+  100px +   (2 * 15px)  +   (2 * 5px)  = 140px
+</code></pre></div>
+<h3>Position</h3>
+
+<ul>
+<li>Absolute</li>
+<li>Relative</li>
+<li>Fixed</li>
 </ul>
 
 <h1>Second Hour</h1>
 
-<h2>Custom fonts</h2>
+<h2>Typography</h2>
+
+<h3>Type for Dummies</h3>
+
+<p><strong>Fonts</strong> are a universe in itself. Some designers spend their life doing mostly font design. There are several categories of fonts:</p>
 
 <ul>
-<li><p>How to choose webfonts (read this before class)</p>
+<li>Serif</li>
+<li>Sans-serif</li>
+<li>Slab</li>
+<li>Brush</li>
+<li>...</li>
+</ul>
+
+<h2>Webfonts</h2>
+
+<h3>Where to get them</h3>
+
+<h4>Free:</h4>
+
+<p>Usually less weights (bold, italic, etc) and way less good options. Always check for international characters. Some staples like <strong>Open Sans</strong> are all over the web.</p>
+
+<ul>
+<li><a href="http://www.google.com/fonts">Google Fonts</a></li>
+<li><a href="http://www.fontsquirrel.com">Fontsquirrel</a></li>
+</ul>
+
+<h4>Paid:</h4>
+
+<p>More unique fonts, made by pros. Lots of weights. Can get very expensive.</p>
+
+<ul>
+<li><a href="http://www.typekit.com">Adobe Typekit</a> (subscription)</li>
+<li><a href="http://www.myfonts.com">MyFonts</a> (purchase license)</li>
+</ul>
+
+<h3>How to choose fonts</h3>
+
+<ul>
+<li>Pick two</li>
+<li>Don&#39;t be afraid to combine <strong>serif</strong> + <strong>sans</strong></li>
+<li>Keep the <em>mood</em> consistent</li>
+<li>Only import the font weights you need</li>
+</ul>
+
+<h4>Read these:</h4>
 
 <ul>
 <li><a href="http://www.typography.com/techniques/">Hoefler &amp; Co</a></li>
 <li><a href="http://font-combinator.com">The Webfont Combinator</a></li>
 <li><a href="http://typecast.com">Typecast</a></li>
-</ul></li>
-<li><p>Choose two webfonts</p></li>
-<li><p>Add to project</p></li>
 </ul>
+
+<h3>How to apply them to your website</h3>
+
+<h4>Import the fonts</h4>
+
+<h5>Option A. Google Fonts</h5>
+
+<p>If you use Google Fonts, you will be provided with a simple way to choose which weights.</p>
+
+<ol>
+<li>Choose one or more fonts</li>
+<li>Click &quot;Add to collection&quot;</li>
+<li>Go to tab &quot;Use&quot;</li>
+<li>Select font weights</li>
+<li>Copy <strong>standard</strong> website code (ex. <code>&lt;link href=&#39;http://fonts.googleapis.com/css?family=Open+Sans&#39; rel=&#39;stylesheet&#39; type=&#39;text/css&#39;&gt;</code>)</li>
+<li>Paste it on your HTML, <em>before</em> your main style sheet.</li>
+</ol>
+
+<h5>Option B. Host Locally</h5>
+
+<p>You can also download fonts from Google Fonts, or Fontsquirrel. That makes downloads faster and more guaranteed, but involve a bit more complicated, hands-on approach.</p>
+
+<ul>
+<li>Choose and download your fonts</li>
+<li>Go to Fontsquirrel &gt; Webfont Generator</li>
+<li>Follow the instructions and download the &quot;font kit&quot;</li>
+<li>Unzip the file. Copy all fonts into a folder on your site (example: <code>assets/fonts</code>)</li>
+<li>Look for the style sheet files. You&#39;ll see something like:</li>
+</ul>
+
+<div class="highlight"><pre><code class="language-css" data-lang="css"><span class="k">@font-face</span> <span class="p">{</span>
+    <span class="nt">font-family</span><span class="o">:</span> <span class="s1">&#39;open_sansbold&#39;</span><span class="o">;</span>
+    <span class="nt">src</span><span class="o">:</span> <span class="nt">url</span><span class="o">(</span><span class="s1">&#39;OpenSans-Bold-webfont.eot&#39;</span><span class="o">);</span>
+    <span class="nt">src</span><span class="o">:</span> <span class="nt">url</span><span class="o">(</span><span class="s1">&#39;OpenSans-Bold-webfont.eot?#iefix&#39;</span><span class="o">)</span> <span class="nt">format</span><span class="o">(</span><span class="s1">&#39;embedded-opentype&#39;</span><span class="o">),</span>
+         <span class="nt">url</span><span class="o">(</span><span class="s1">&#39;OpenSans-Bold-webfont.woff&#39;</span><span class="o">)</span> <span class="nt">format</span><span class="o">(</span><span class="s1">&#39;woff&#39;</span><span class="o">),</span>
+         <span class="nt">url</span><span class="o">(</span><span class="s1">&#39;OpenSans-Bold-webfont.ttf&#39;</span><span class="o">)</span> <span class="nt">format</span><span class="o">(</span><span class="s1">&#39;truetype&#39;</span><span class="o">),</span>
+         <span class="nt">url</span><span class="o">(</span><span class="s1">&#39;OpenSans-Bold-webfont.svg#open_sansbold&#39;</span><span class="o">)</span> <span class="nt">format</span><span class="o">(</span><span class="s1">&#39;svg&#39;</span><span class="o">);</span>
+    <span class="nt">font-weight</span><span class="o">:</span> <span class="nt">normal</span><span class="o">;</span>
+    <span class="nt">font-style</span><span class="o">:</span> <span class="nt">normal</span><span class="o">;</span>
+
+<span class="p">}</span></code></pre></div>
+
+<ul>
+<li>Add it to the top of your style sheet. You&#39;ll need to add one of these for each font weight. Make sure you pay attention to <strong>path</strong>.</li>
+<li>Change the appropriate path to the font file on your structure (<code>/assets/fonts</code> in our example)</li>
+<li>Change the <strong>font-family</strong> and <strong>font-weight</strong> values to match what each @font-face is referring to (in our example&#39;s case, it should be &quot;Open Sans&quot; and &quot;bold&quot;)</li>
+</ul>
+
+<h4>Using the font</h4>
+
+<p>After you import the font, you can simply use it in your CSS:</p>
+
+<div class="highlight"><pre><code class="language-css" data-lang="css"><span class="nt">font-family</span><span class="o">:</span> <span class="s1">&#39;Open Sans&#39;</span><span class="o">;</span></code></pre></div>
+
+<h3>Licensing</h3>
+
+<p>Any .ttf font can be used as a web font. However, you must pay attention to licensing and make sure you only use fonts on the web which are licensed for such use.</p>
 
       </div>
     </div>
