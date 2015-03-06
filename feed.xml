@@ -6,8 +6,8 @@
 </description>
     <link>http://nandorocker.github.io/</link>
     <atom:link href="http://nandorocker.github.io/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Fri, 06 Mar 2015 03:03:01 +0100</pubDate>
-    <lastBuildDate>Fri, 06 Mar 2015 03:03:01 +0100</lastBuildDate>
+    <pubDate>Fri, 06 Mar 2015 03:05:09 +0100</pubDate>
+    <lastBuildDate>Fri, 06 Mar 2015 03:05:09 +0100</lastBuildDate>
     <generator>Jekyll v2.5.3</generator>
     
       <item>
@@ -310,7 +310,7 @@
         <title>Fonts &amp; Layout</title>
         <description>&lt;h1&gt;First Hour&lt;/h1&gt;
 
-&lt;h2&gt;Layouts&lt;/h2&gt;
+&lt;h2&gt;Layout&lt;/h2&gt;
 
 &lt;ul&gt;
 &lt;li&gt;&lt;a href=&quot;http://learnlayout.com&quot;&gt;learnlayout&lt;/a&gt;&lt;/li&gt;
@@ -351,6 +351,14 @@
 &lt;li&gt;Absolute&lt;/li&gt;
 &lt;li&gt;Relative&lt;/li&gt;
 &lt;li&gt;Fixed&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3&gt;Alignment&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Centering&lt;/li&gt;
+&lt;li&gt;Float left&lt;/li&gt;
+&lt;li&gt;Text alignment&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;h1&gt;Second Hour&lt;/h1&gt;
