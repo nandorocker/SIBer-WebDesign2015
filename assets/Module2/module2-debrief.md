@@ -21,28 +21,33 @@
 ---
 
 # Content vs. style
-- HTML is for content
-- CSS is for style
+- *HTML* for content
+- *CSS* for style
 - Use tags to **markup** elements, not for visual effects
+- Use style sheets to define visual effects
 
 ---
 
-# When to use `div` and `span`
+# `.classes` vs. `#id`
+- Classes are **modular** and **reusable**
+- IDs are **unique** and should be used for specific purposes only
+
+---
+
+# Group elements with `div` & `span`
 - `div` is for grouping text & elements in a **block**
 - `span` is for grouping text and elements **inline**
-- **wrappers**/**containers**
-
----
-
-# `.classes` vs. `#id` – when to use?
+- wrappers/containers
+- Choose wisely, prefer semantic code (what is this part of my content *for*?)
 
 ---
 
 # The box model
+![image](BOXMODEL.jpg)
 
 ---
 
-# Centering `<div>`
+# Centering elements
 
 
 ```css
@@ -57,6 +62,7 @@
 # Fluid layouts
 - Fluid != responsive!
 - Elements automatically organize themselves across the screen
+- Use `float: left`
 
 ---
 
@@ -206,3 +212,8 @@ Any .ttf font can be used as a web font. However, you must pay attention to lice
 
 # Questions?
 ![image](stevebrule.jpg)
+
+---
+
+# BONUS DEMO
+## A simple page in 5min with Bootstrap
