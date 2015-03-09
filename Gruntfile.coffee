@@ -53,6 +53,7 @@ module.exports = (grunt) ->
           "_config.yml"
           "*.html"
           "*.md"
+          "assets/**/*"
         ]
         tasks: [
           "exec:jekyll"

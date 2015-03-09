@@ -167,6 +167,10 @@
  */
 .page-content {
     padding: $spacing-unit*3;
+
+    img {
+        border: 1px solid #ebebeb;
+    }
 }
 
 .page-heading {
