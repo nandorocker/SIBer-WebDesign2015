@@ -145,6 +145,10 @@ pre {
   .icon > svg path {
     fill: #828282; }
 
+hr {
+  border: 2px;
+  margin: 60px 0; }
+
 /**
  * Site header
  */
@@ -264,6 +268,8 @@ pre {
  */
 .page-content {
   padding: 90px; }
+  .page-content img {
+    border: 1px solid #ebebeb; }
 
 .page-heading {
   font-size: 20px; }
