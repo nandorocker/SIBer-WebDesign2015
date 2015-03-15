@@ -6,8 +6,8 @@
 </description>
     <link>http://nandorocker.github.io/</link>
     <atom:link href="http://nandorocker.github.io/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Wed, 11 Mar 2015 02:01:51 +0100</pubDate>
-    <lastBuildDate>Wed, 11 Mar 2015 02:01:51 +0100</lastBuildDate>
+    <pubDate>Sun, 15 Mar 2015 21:16:07 +0100</pubDate>
+    <lastBuildDate>Sun, 15 Mar 2015 21:16:07 +0100</lastBuildDate>
     <generator>Jekyll v2.5.3</generator>
     
       <item>
@@ -112,66 +112,142 @@
     
       <item>
         <title>Tools</title>
-        <description>&lt;h2&gt;Immersive&lt;/h2&gt;
+        <description>&lt;h4&gt;11am&lt;/h4&gt;
 
-&lt;h3&gt;Frameworks&lt;/h3&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&quot;http://getbootstrap.com&quot;&gt;Bootstrap&lt;/a&gt;, &lt;a href=&quot;http://foundation.zurb.com&quot;&gt;Foundation&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;What are they for?&lt;/li&gt;
-&lt;li&gt;Live demonstration
+&lt;h2&gt;Q&amp;#39;s &amp;amp; A&amp;#39;s (20min)&lt;/h2&gt;
 
 &lt;ul&gt;
-&lt;li&gt;Generate a simple site with Bootstrap&lt;/li&gt;
-&lt;li&gt;Use components, reference&lt;/li&gt;
-&lt;li&gt;Responsive design made easier &lt;/li&gt;
-&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;Responsible layouts&lt;/li&gt;
+&lt;li&gt;Choose one website you&amp;#39;re working on from here on out&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h3&gt;Apps &amp;amp; Web apps&lt;/h3&gt;
+&lt;hr&gt;
+
+&lt;h2&gt;Frameworks (30min)&lt;/h2&gt;
+
+&lt;h3&gt;What are they?&lt;/h3&gt;
+
+&lt;p&gt;Frameworks let you &lt;em&gt;shortcut&lt;/em&gt; your front-end development by providing:&lt;/p&gt;
 
 &lt;ul&gt;
-&lt;li&gt;Pros and cons&lt;/li&gt;
-&lt;li&gt;Which ones to use, which to avoid
+&lt;li&gt;&amp;quot;Nice&amp;quot; basic appearance&lt;/li&gt;
+&lt;li&gt;Common design patterns:
 
 &lt;ul&gt;
-&lt;li&gt;Macaw&lt;/li&gt;
-&lt;li&gt;Squarespace&lt;/li&gt;
-&lt;li&gt;Strikingly&lt;/li&gt;
-&lt;li&gt;Wordpress templates&lt;/li&gt;
+&lt;li&gt;Buttons&lt;/li&gt;
+&lt;li&gt;Forms&lt;/li&gt;
+&lt;li&gt;Icons&lt;/li&gt;
 &lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;Components:
+
+&lt;ul&gt;
+&lt;li&gt;Grid system&lt;/li&gt;
+&lt;li&gt;Navigation&lt;/li&gt;
+&lt;li&gt;Pagination&lt;/li&gt;
+&lt;li&gt;Progress bars&lt;/li&gt;
+&lt;li&gt;...&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;Responsive design&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h2&gt;Debrief&lt;/h2&gt;
+&lt;h2&gt;Styles&lt;/h2&gt;
 
 &lt;ul&gt;
-&lt;li&gt;Q&amp;amp;A&amp;#39;s&lt;/li&gt;
+&lt;li&gt;Default designs save you a bunch of time on proofs-of-concept&lt;/li&gt;
+&lt;li&gt;Totally customizable (Bootstrap offers a &lt;a href=&quot;http://getbootstrap.com/customize/&quot;&gt;customization page&lt;/a&gt;)&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Themes&lt;/strong&gt; available on the web&lt;/li&gt;
+&lt;li&gt;Work just like any HTML/CSS file&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h3&gt;Preprocessors&lt;/h3&gt;
+&lt;p&gt;&lt;img src=&quot;/assets/Module4/buttons-and-styles.png&quot; alt=&quot;grid system&quot;&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Bootstrap&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/Module4/foundation-styles.png&quot; alt=&quot;grid system&quot;&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Foundation&lt;/strong&gt;&lt;/p&gt;
+
+&lt;h2&gt;Scripts&lt;/h2&gt;
 
 &lt;ul&gt;
-&lt;li&gt;LESS, SASS, Jade, Coffeescript and others&lt;/li&gt;
-&lt;li&gt;What are they for?&lt;/li&gt;
-&lt;li&gt;How do they work?&lt;/li&gt;
-&lt;li&gt;Live demonstration
-
-&lt;ul&gt;
-&lt;li&gt;HTML (Jade)
-
-&lt;ul&gt;
-&lt;li&gt;Cleaner code&lt;/li&gt;
-&lt;li&gt;Easier to read&lt;/li&gt;
-&lt;/ul&gt;&lt;/li&gt;
-&lt;li&gt;CSS
-
-&lt;ul&gt;
-&lt;li&gt;Variables&lt;/li&gt;
-&lt;li&gt;Nested rules&lt;/li&gt;
-&lt;li&gt;Maths&lt;/li&gt;
-&lt;/ul&gt;&lt;/li&gt;
-&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;Transitions/animations&lt;/li&gt;
+&lt;li&gt;Menus and behaviors&lt;/li&gt;
+&lt;li&gt;Modals&lt;/li&gt;
+&lt;li&gt;Alerts&lt;/li&gt;
+&lt;li&gt;...&lt;/li&gt;
 &lt;/ul&gt;
+
+&lt;hr&gt;
+
+&lt;h2&gt;Grid system&lt;/h2&gt;
+
+&lt;p&gt;Layouts minus all the math.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/Module4/grid-system.png&quot; alt=&quot;grid system&quot;&gt;&lt;/p&gt;
+
+&lt;p&gt;This is the code:&lt;/p&gt;
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-html&quot; data-lang=&quot;html&quot;&gt;&lt;span class=&quot;nt&quot;&gt;&amp;lt;div&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;class=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&amp;quot;col-xs-12 col-md-6&amp;quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;
+    Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy
+    nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut 
+    wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit 
+    lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure 
+    dolor in hendrerit in vulputate velit esse molestie consequat, vel illum 
+    dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio 
+    dignissim.
+&lt;span class=&quot;nt&quot;&gt;&amp;lt;/div&amp;gt;&lt;/span&gt;
+&lt;span class=&quot;nt&quot;&gt;&amp;lt;div&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;class=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&amp;quot;col-xs-12 col-md-6&amp;quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;
+    Qui blandit praesent luptatum zzril delenit augue duis dolore te feugait 
+    nulla facilisi. Nam liber tempor cum soluta nobis eleifend option congue 
+    nihil imperdiet doming id quod mazim placerat facer possim assum. Typi 
+    non habent claritatem insitam; est usus legentis in iis qui facit eorum 
+    claritatem. Investigationes demonstraverunt lectores legere me lius quod 
+    ii legunt saepius. Claritas est etiam processus dynamicus, qui sequitur 
+    mutationem consuetudium lectorum. Mirum est notare quam littera gothica, 
+    quam nunc putamus parum claram, anteposuerit litterarum formas humanitatis 
+    per seacula quarta decima et quinta decima. Eodem modo typi, qui nunc
+    nobis videntur parum clari, fiant sollemnes in futurum.
+&lt;span class=&quot;nt&quot;&gt;&amp;lt;/div&amp;gt;&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;This is what you get: &lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/Module4/grid-example.png&quot; alt=&quot;grid system&quot;&gt;&lt;br&gt;
+&lt;strong&gt;Desktop&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/Module4/grid-example-mobile.png&quot; alt=&quot;grid system&quot;&gt;&lt;br&gt;
+&lt;strong&gt;Mobile&lt;/strong&gt;&lt;/p&gt;
+
+&lt;h4&gt;Most popular frameworks&lt;/h4&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;http://getbootstrap.com&quot;&gt;Bootstrap&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://foundation.zurb.com&quot;&gt;Foundation&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://www.yaml.de&quot;&gt;YAML&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://purecss.io&quot;&gt;Pure.css&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;hr&gt;
+
+&lt;h4&gt;12:00pm&lt;/h4&gt;
+
+&lt;h1&gt;Demo time (40min)&lt;/h1&gt;
+
+&lt;h2&gt;Make a simple page from scratch using bootstrap&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Download bootstrap&lt;/li&gt;
+&lt;li&gt;Copy BS files to working folder&lt;/li&gt;
+&lt;li&gt;Link on HTML&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;PROFIT&lt;/strong&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h1&gt;Assignment overview (10min)&lt;/h1&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Work further on responsiveness&lt;/li&gt;
+&lt;li&gt;Try implementing a &lt;strong&gt;framework&lt;/strong&gt; into your website&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h1&gt;Questions (5min)&lt;/h1&gt;
 </description>
         <pubDate>Mon, 16 Mar 2015 00:00:00 +0100</pubDate>
         <link>http://nandorocker.github.io/module4/immersive/immersive.html</link>
@@ -259,15 +335,6 @@
 &lt;ul&gt;
 &lt;li&gt;Collect 3 examples of &lt;strong&gt;great&lt;/strong&gt; responsive design&lt;/li&gt;
 &lt;li&gt;Collect 3 examples of &lt;strong&gt;bad&lt;/strong&gt; responsive design&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h3&gt;Debrief&lt;/h3&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Ask students to present their good &amp;amp; bad responsive design examples&lt;/li&gt;
-&lt;li&gt;Q&amp;amp;A&amp;#39;s&lt;/li&gt;
-&lt;li&gt;Portfolio feedback&lt;/li&gt;
-&lt;li&gt;Media queries are hard? Begin introducing preprocessors, frameworks, etc&lt;/li&gt;
 &lt;/ul&gt;
 </description>
         <pubDate>Wed, 11 Mar 2015 00:00:00 +0100</pubDate>
