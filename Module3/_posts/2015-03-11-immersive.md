@@ -2,6 +2,7 @@
 module: 3
 title: "CSS3 & Responsive Design"
 category: immersive
+layout: default
 ---
 
 ### Immersive
@@ -44,11 +45,3 @@ This will be a mostly theoretical class, with some code implementation. Main goa
 
 - Collect 3 examples of **great** responsive design
 - Collect 3 examples of **bad** responsive design
-
-
-### Debrief
-
-- Ask students to present their good & bad responsive design examples
-- Q&A's
-- Portfolio feedback
-- Media queries are hard? Begin introducing preprocessors, frameworks, etc
