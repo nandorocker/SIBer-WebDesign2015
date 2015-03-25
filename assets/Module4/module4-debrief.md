@@ -133,26 +133,38 @@
 
 ---
 
-## Example: TestFlight
+## Good example: TestFlight
 
 - Complex application for developers
-- Good idea: interaction designer learn from developers
-- Bad idea: know-it-all front-end developer messed up code and created problems for others
+- Interaction design team learns patterns and needs from developers
+
+---
+
+## Bad example: TestFlight
+
+- Know-it-all front-end developer pretends to know more than he does
+- Misunderstands code
+- Messes up other people's work and creates more work for them
 
 ---
 
 
-## Focus on the user
+# Focus on the user, understand the tech.
 
-- Designers too focused on their masterpiece vs. the user and the tech.
-- Frond-end developers too focused on the tech vs. the user and product.
+## HowStuffWorks
+
+- iOS app
+- Lots of OS specifics
+- Developer actually helped by explaining patterns
+- Sometimes those patterns had to be broken for design's sake
 
 ---
 
 ## Create conventions
-- Naming conventions (files, directories, layers, etc)
+- Naming conventions (files, directories, layers, etc) help find stuff
 - Standard meetings (not too many)
 
 ---
 
-## MAKE GREAT STUFF!
+## NOW GO AND MAKE SOME STUFF!
+![Proenneke](http://www.evenfallstudios.com/woodworks/wp-content/uploads/2010/10/proenneke1.jpg)

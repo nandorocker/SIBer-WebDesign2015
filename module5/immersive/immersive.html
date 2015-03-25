@@ -7,7 +7,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
   <title>Intro to jQuery & JS Libraries</title>
-  <meta name="description" content="">
+  <meta name="description" content="jQuery">
 
   <!-- Custom CSS -->
   <link href='http://fonts.googleapis.com/css?family=Roboto:400,500,400italic,500italic,700,700italic,100,100italic' rel='stylesheet' type='text/css'>
@@ -52,7 +52,84 @@
 
     <div class="page-content">
       <div class="wrapper">
-        
+        <h1>jQuery</h1>
+
+<h2>The usual triad:</h2>
+
+<ul>
+<li><strong>HTML</strong>: content</li>
+<li><strong>CSS</strong>: style</li>
+<li><strong>Javascfipt</strong>: behavior</li>
+</ul>
+
+<h1>Javascript for behavior</h1>
+
+<p>Here&#39;s some sites that use JS:</p>
+
+<ul>
+<li><a href="http://gallagalla.com">Galleries</a></li>
+<li>Animated navigations like <a href="https://www.140c.com">this</a></li>
+<li>Automatic feeds (Twitter, Gmail)</li>
+</ul>
+
+<h1>Javascript changes your page dynamically</h1>
+
+<ul>
+<li>When a user does something</li>
+<li>When content is updated on a server</li>
+<li>At a certain day of the year</li>
+<li>etc.</li>
+</ul>
+
+<h1>jQuery makes Javascript accessible</h1>
+
+<p>jQuery is a Javascript framework. It enables a non-developer to do complicated things.</p>
+
+<ul>
+<li>Usind jQuery without knowing Javascript = doing Bootstrap without CSS</li>
+<li>jQuery looks closer to CSS</li>
+</ul>
+
+<h1>Let&#39;s watch a <a href="http://try.jquery.com/levels/1/sections/2">video</a>!</h1>
+
+<h1>DOM: The Document Object Model</h1>
+
+<ul>
+<li>How <strong>browsers</strong> identify the content on a website</li>
+<li>Also the order things load</li>
+<li>Divided in <strong>nodes</strong></li>
+<li>Set up like a tree (DOM tree):
+
+<ul>
+<li>Parents</li>
+<li>Children</li>
+<li>Siblings</li>
+</ul></li>
+</ul>
+
+<h1>Demos from <a href="http://try.jquery.com/levels/1/sections/3">jQuery</a></h1>
+
+<h2>Simple Element Selector</h2>
+
+<h2>Document Ready</h2>
+<div class="highlight"><pre><code class="language-javascript" data-lang="javascript"><span class="nx">$</span><span class="p">(</span><span class="nb">document</span><span class="p">).</span><span class="nx">ready</span><span class="p">(</span><span class="kd">function</span><span class="p">()</span> <span class="p">{</span>
+
+<span class="p">});</span>
+</code></pre></div>
+<h2>Descendant selectors/immediate child</h2>
+
+<h2>Using jQuery&#39;s traversal for speed</h2>
+<div class="highlight"><pre><code class="language-css" data-lang="css"><span class="nf">#travel</span> <span class="nc">.offer</span> <span class="p">{</span> <span class="p">}</span>
+</code></pre></div><div class="highlight"><pre><code class="language-javascript" data-lang="javascript"><span class="nx">$</span><span class="p">(</span><span class="s2">&quot;#travel&quot;</span><span class="p">).</span><span class="nx">find</span><span class="p">(</span><span class="s2">&quot;.offer&quot;</span><span class="p">);</span>
+</code></pre></div><div class="highlight"><pre><code class="language-css" data-lang="css"><span class="nf">#travel</span> <span class="o">&gt;</span> <span class="nt">li</span> <span class="p">{</span> <span class="p">}</span>
+</code></pre></div><div class="highlight"><pre><code class="language-javascript" data-lang="javascript"><span class="nx">$</span><span class="p">(</span><span class="s2">&quot;#travel&quot;</span><span class="p">).</span><span class="nx">child</span><span class="p">(</span><span class="s2">&quot;li&quot;</span><span class="p">);</span>
+</code></pre></div><div class="highlight"><pre><code class="language-css" data-lang="css"><span class="nf">#travel</span> <span class="o">&gt;</span> <span class="nt">li</span><span class="nd">:first</span> <span class="p">{</span> <span class="p">}</span>
+</code></pre></div><div class="highlight"><pre><code class="language-javascript" data-lang="javascript"><span class="nx">$</span><span class="p">(</span><span class="s2">&quot;#travel&quot;</span><span class="p">).</span><span class="nx">child</span><span class="p">(</span><span class="s2">&quot;li&quot;</span><span class="p">).</span><span class="nx">first</span><span class="p">();</span>
+</code></pre></div>
+<h3>Download presentation</h3>
+
+<p>Presentation <a href="/assets/Module4/module5-immersive.pdf">here</a></p>
+
       </div>
     </div>
 

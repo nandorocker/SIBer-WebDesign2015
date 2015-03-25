@@ -6,8 +6,8 @@
 </description>
     <link>http://nandorocker.github.io/</link>
     <atom:link href="http://nandorocker.github.io/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Fri, 20 Mar 2015 03:03:03 +0100</pubDate>
-    <lastBuildDate>Fri, 20 Mar 2015 03:03:03 +0100</lastBuildDate>
+    <pubDate>Wed, 25 Mar 2015 01:49:45 +0100</pubDate>
+    <lastBuildDate>Wed, 25 Mar 2015 01:49:45 +0100</lastBuildDate>
     <generator>Jekyll v2.5.3</generator>
     
       <item>
@@ -65,7 +65,7 @@
       <item>
         <title>Intro to jQuery &amp; JS Libraries</title>
         <description></description>
-        <pubDate>Wed, 25 Mar 2015 00:00:00 +0100</pubDate>
+        <pubDate>Fri, 27 Mar 2015 00:00:00 +0100</pubDate>
         <link>http://nandorocker.github.io/module5/debrief/debrief.html</link>
         <guid isPermaLink="true">http://nandorocker.github.io/module5/debrief/debrief.html</guid>
         
@@ -78,8 +78,85 @@
     
       <item>
         <title>Intro to jQuery &amp; JS Libraries</title>
-        <description></description>
-        <pubDate>Fri, 20 Mar 2015 00:00:00 +0100</pubDate>
+        <description>&lt;h1&gt;jQuery&lt;/h1&gt;
+
+&lt;h2&gt;The usual triad:&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;HTML&lt;/strong&gt;: content&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;CSS&lt;/strong&gt;: style&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Javascfipt&lt;/strong&gt;: behavior&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h1&gt;Javascript for behavior&lt;/h1&gt;
+
+&lt;p&gt;Here&amp;#39;s some sites that use JS:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;http://gallagalla.com&quot;&gt;Galleries&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Animated navigations like &lt;a href=&quot;https://www.140c.com&quot;&gt;this&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Automatic feeds (Twitter, Gmail)&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h1&gt;Javascript changes your page dynamically&lt;/h1&gt;
+
+&lt;ul&gt;
+&lt;li&gt;When a user does something&lt;/li&gt;
+&lt;li&gt;When content is updated on a server&lt;/li&gt;
+&lt;li&gt;At a certain day of the year&lt;/li&gt;
+&lt;li&gt;etc.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h1&gt;jQuery makes Javascript accessible&lt;/h1&gt;
+
+&lt;p&gt;jQuery is a Javascript framework. It enables a non-developer to do complicated things.&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Usind jQuery without knowing Javascript = doing Bootstrap without CSS&lt;/li&gt;
+&lt;li&gt;jQuery looks closer to CSS&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h1&gt;Let&amp;#39;s watch a &lt;a href=&quot;http://try.jquery.com/levels/1/sections/2&quot;&gt;video&lt;/a&gt;!&lt;/h1&gt;
+
+&lt;h1&gt;DOM: The Document Object Model&lt;/h1&gt;
+
+&lt;ul&gt;
+&lt;li&gt;How &lt;strong&gt;browsers&lt;/strong&gt; identify the content on a website&lt;/li&gt;
+&lt;li&gt;Also the order things load&lt;/li&gt;
+&lt;li&gt;Divided in &lt;strong&gt;nodes&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;Set up like a tree (DOM tree):
+
+&lt;ul&gt;
+&lt;li&gt;Parents&lt;/li&gt;
+&lt;li&gt;Children&lt;/li&gt;
+&lt;li&gt;Siblings&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h1&gt;Demos from &lt;a href=&quot;http://try.jquery.com/levels/1/sections/3&quot;&gt;jQuery&lt;/a&gt;&lt;/h1&gt;
+
+&lt;h2&gt;Simple Element Selector&lt;/h2&gt;
+
+&lt;h2&gt;Document Ready&lt;/h2&gt;
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-javascript&quot; data-lang=&quot;javascript&quot;&gt;&lt;span class=&quot;nx&quot;&gt;$&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;document&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;).&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;ready&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;kd&quot;&gt;function&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;()&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+
+&lt;span class=&quot;p&quot;&gt;});&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;h2&gt;Descendant selectors/immediate child&lt;/h2&gt;
+
+&lt;h2&gt;Using jQuery&amp;#39;s traversal for speed&lt;/h2&gt;
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-css&quot; data-lang=&quot;css&quot;&gt;&lt;span class=&quot;nf&quot;&gt;#travel&lt;/span&gt; &lt;span class=&quot;nc&quot;&gt;.offer&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-javascript&quot; data-lang=&quot;javascript&quot;&gt;&lt;span class=&quot;nx&quot;&gt;$&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&amp;quot;#travel&amp;quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;).&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;find&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&amp;quot;.offer&amp;quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-css&quot; data-lang=&quot;css&quot;&gt;&lt;span class=&quot;nf&quot;&gt;#travel&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;&amp;gt;&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;li&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-javascript&quot; data-lang=&quot;javascript&quot;&gt;&lt;span class=&quot;nx&quot;&gt;$&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&amp;quot;#travel&amp;quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;).&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;child&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&amp;quot;li&amp;quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-css&quot; data-lang=&quot;css&quot;&gt;&lt;span class=&quot;nf&quot;&gt;#travel&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;&amp;gt;&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;li&lt;/span&gt;&lt;span class=&quot;nd&quot;&gt;:first&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-javascript&quot; data-lang=&quot;javascript&quot;&gt;&lt;span class=&quot;nx&quot;&gt;$&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&amp;quot;#travel&amp;quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;).&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;child&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&amp;quot;li&amp;quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;).&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;first&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;();&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;h3&gt;Download presentation&lt;/h3&gt;
+
+&lt;p&gt;Presentation &lt;a href=&quot;/assets/Module4/module5-immersive.pdf&quot;&gt;here&lt;/a&gt;&lt;/p&gt;
+</description>
+        <pubDate>Wed, 25 Mar 2015 00:00:00 +0100</pubDate>
         <link>http://nandorocker.github.io/module5/immersive/immersive.html</link>
         <guid isPermaLink="true">http://nandorocker.github.io/module5/immersive/immersive.html</guid>
         
