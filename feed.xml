@@ -6,8 +6,8 @@
 </description>
     <link>http://nandorocker.github.io/</link>
     <atom:link href="http://nandorocker.github.io/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Wed, 25 Mar 2015 01:49:45 +0100</pubDate>
-    <lastBuildDate>Wed, 25 Mar 2015 01:49:45 +0100</lastBuildDate>
+    <pubDate>Fri, 27 Mar 2015 00:59:12 +0100</pubDate>
+    <lastBuildDate>Fri, 27 Mar 2015 00:59:12 +0100</lastBuildDate>
     <generator>Jekyll v2.5.3</generator>
     
       <item>
@@ -64,7 +64,54 @@
     
       <item>
         <title>Intro to jQuery &amp; JS Libraries</title>
-        <description></description>
+        <description>&lt;h3&gt;First hour&lt;/h3&gt;
+
+&lt;h1&gt;Questions &amp;amp; comments from the labs&lt;/h1&gt;
+
+&lt;hr&gt;
+
+&lt;h3&gt;Second hour&lt;/h3&gt;
+
+&lt;h1&gt;Tapping Into The Community&lt;/h1&gt;
+
+&lt;h2&gt;Javascript Libraries &amp;amp; Plug-ins&lt;/h2&gt;
+
+&lt;h2&gt;Javascript libraries give you superpowers&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Add UI controls (galleries, popups, autocomplete)&lt;/li&gt;
+&lt;li&gt;Special effects (parallax, fill screen, text effects)&lt;/li&gt;
+&lt;li&gt;Create visualizations&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2&gt;UI controls&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;http://nanogallery.brisbois.fr&quot;&gt;nanogallery&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://iamceege.github.io/tooltipster/&quot;&gt;Tooltipster&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://unslider.com&quot;&gt;unslider&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2&gt;Special effects&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;http://nick-jonas.github.io/windows/&quot;&gt;Windows&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://fittextjs.com&quot;&gt;FitText&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://joelb.me/scrollpath/&quot;&gt;ScrollPath&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2&gt;Visualizations&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;http://d3js.org&quot;&gt;d3js&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h1&gt;Demo: let&amp;#39;s install a plug-in!&lt;/h1&gt;
+
+&lt;h3&gt;Download presentation&lt;/h3&gt;
+
+&lt;p&gt;Presentation &lt;a href=&quot;/assets/Module5/module5-debrief.pdf&quot;&gt;here&lt;/a&gt;&lt;/p&gt;
+</description>
         <pubDate>Fri, 27 Mar 2015 00:00:00 +0100</pubDate>
         <link>http://nandorocker.github.io/module5/debrief/debrief.html</link>
         <guid isPermaLink="true">http://nandorocker.github.io/module5/debrief/debrief.html</guid>
@@ -154,7 +201,7 @@
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 &lt;h3&gt;Download presentation&lt;/h3&gt;
 
-&lt;p&gt;Presentation &lt;a href=&quot;/assets/Module4/module5-immersive.pdf&quot;&gt;here&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Presentation &lt;a href=&quot;/assets/Module5/module5-immersive.pdf&quot;&gt;here&lt;/a&gt;&lt;/p&gt;
 </description>
         <pubDate>Wed, 25 Mar 2015 00:00:00 +0100</pubDate>
         <link>http://nandorocker.github.io/module5/immersive/immersive.html</link>
