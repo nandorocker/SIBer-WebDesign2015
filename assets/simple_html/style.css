@@ -1,0 +1,312 @@
+/*
+ *	Begin CSS Reset
+ */
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	background-color: #333;
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+/*
+ * End CSS Reset
+ */
+
+/*
+ * BASE css
+ */
+
+html {
+	font-size: 16px;
+	font-family: 'Open Sans', sans-serif;
+
+}
+
+h1, h2, h3, h4, h5 {
+	font-family: 'Roboto', sans-serif;
+	font-weight: 700;
+	margin: 1.4rem 0 1.6rem 0;
+}
+
+h1 {
+	font-size: 3rem;
+	line-height: 3.1rem;
+	display: block;
+}
+
+h2 {
+	font-size: 2.3rem;
+	line-height: 2.2rem;
+}
+
+h3 {
+	font-size: 1.8rem;
+	line-height: 1.8rem;
+}
+
+h4 {
+	font-size: 1.4rem;
+	line-height: 1.4rem;
+}
+
+h5 {
+	font-size: 1rem;
+	line-height: 1rem;
+}
+
+p {
+	line-height: 1.4rem;
+}
+
+a, a:link {
+	color: #EB7F00;
+	text-decoration: none;
+}
+
+a:visited {
+	color: #cc0000;
+}
+
+
+footer a, footer a:link, footer a:hover, footer a:active, footer a:visited {
+	color: #eee;
+}
+
+footer {
+	width: 100%;
+	background-color: #EB7F00;
+	color: #fff;
+}
+
+/*
+ * Layout
+ */
+
+/* navigation */
+nav {
+	clear: both;
+	display: block;
+}
+
+#top_navigation {
+	position: fixed;
+	z-index: 9999;
+	width: 100%;
+	padding: 1rem;
+	margin: 0;
+	background-color: #333;
+	opacity: .95;
+	border-bottom: #444 solid 1px;
+}
+
+#top_navigation a, #top_navigation a:visited {
+	color: #fff;
+}
+
+#top_navigation a:hover {
+	color: #8BCAFF;
+}
+
+#top_navigation .brand {
+	height: 100%;
+	float: left;
+	display: block;
+}
+
+#top_navigation .brand img {
+	height: 30px;
+}
+
+.nav-right {
+	float: left;
+}
+
+.window {
+	padding-top: 4rem;
+	padding-bottom: 4rem;
+}
+
+.home-slice {
+	height: 100vh;
+}
+
+/* Begin Home */
+
+/* Area: intro */
+.home-intro {
+	background:
+	
+	linear-gradient(
+      rgba(0, 0, 0, 0.3), 
+      rgba(0, 0, 0, 0.8)
+    ),
+
+	url('scb_eagle.jpeg') no-repeat center center fixed; 
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+
+	color: #fff;
+	height: 70vh;
+}
+
+.home-intro figure {
+	display: inline-block;
+	vertical-align: middle;
+	margin-right: 2rem;
+	border: #EB7F00 solid 2rem;
+}
+
+.home-intro .article-heading {
+	display: inline-block;
+}
+
+.home-intro-greeting {
+	text-align: center;
+	font-style: italic;
+}
+
+.home-demonstrating {
+	background-color: #225378;
+	color: #fff;
+}
+
+.home-line-breaks {
+	background-color: #1695A3;
+}
+
+.home-starting {
+	background-color: #ACF0F2;
+}
+
+.home-headings {
+	background-color: #F3FFE2;
+}
+
+footer {
+	width: 100%;
+	background-color: #EB7F00;
+	padding: 4rem;
+	text-align: center;
+}
+
+/*
+ * MODULES
+ */
+.container {
+	padding: 1rem;
+	display: block;
+	clear: both;
+}
+
+.clearfix {
+	clear: both;
+	overflow: hidden;
+}
+
+.vertical-center {
+	position: relative;
+	top: 50%;
+	-webkit-transform: translateY(-50%);
+	-ms-transform: translateY(-50%);
+	transform: translateY(-50%);
+}
+
+/*
+ * Media Queries
+ */
+
+@media screen and (min-width: 600px) {
+	h3 {
+		font-size: 1.4rem;
+		line-height: 1.5rem;
+	}
+
+	.navigation li {
+		float: left;
+		margin-right: 2rem;
+	}
+
+	.nav-right {
+		float: right;
+	}
+
+	.bottom-navigation, .bottom-navigation p {
+		width: 90%;
+	}
+
+	.bottom-navigation li {
+		float: none;
+		display: inline-block;
+	}
+
+	.container {
+		padding: 0 3rem;
+	}
+}
+
+@media screen and (min-width: 800px) {
+
+	.column-2 {
+		width: 45%;
+		float: left;
+		padding: 1rem;
+	}
+}
+
+@media screen and (min-width: 1024px) {
+	body {
+		font-size: 18px;
+	}
+
+	p {
+		line-height: 1.9rem;
+	}
+}
+
+/** {
+	border: 1px solid #000 !important;
+}
